@@ -1,0 +1,239 @@
+/* general */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+
+}
+
+
+h3{
+  font-size: 2.5rem;
+}
+
+p{
+  color: gray;
+}
+
+
+.hidden{
+  visibility: hidden;
+}
+
+
+
+container-fluid{
+  padding: 2% 15% 10% 15%;
+}
+
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+
+}
+
+
+
+
+/* Title and navigation bar section */
+
+#title{
+  
+  font-weight: 900;
+  padding: 3% 15% 10% 15%;
+  text-align: left;
+}
+
+.big-heading{
+
+  font-size: 3.6rem;
+  line-height: 1.5;
+  font-weight: 900;
+  
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* Download buttons */
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+
+
+.title-image{
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section*/
+
+#features{
+  padding:10% 15%;
+  background-color: white;
+  position: relative;
+}
+
+
+
+.feature-name{
+  font-size:2rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.feature-description{
+  padding: 0 20%;
+  color: #8f8f8f;
+}
+
+.feature-icon{
+  font-size: 6rem;
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.feature-icon:hover{
+  color:#ff4c68;
+}
+
+/* Testiomonial section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+  color:#fff;
+}
+
+.press-logo{
+  width: 8%;
+  margin: 20px 60px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.carousel-indicators{
+  position: relative;
+  top: 70%;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding:7% 15%;
+}
+
+.pricing-type-name{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card{
+  padding: 2% 3%;
+}
+
+.card-header{
+  background-color:#FFDEDE;
+}
+
+/* call of action section */
+#cta{
+  padding: 7% 25%;
+}
+
+.cta-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer{
+  padding: 2% 15%;
+}
+
+.footer-link{
+  margin: 3% 10px;
+}
+
+
+a{
+  color:black;
+}
+a:hover{
+  color: #ff4c68;
+}
+
+
+
+
+
+
+/* Media querry */
+
+@media (max-width: 1028px) {
+
+  .title-image{
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+
+}
